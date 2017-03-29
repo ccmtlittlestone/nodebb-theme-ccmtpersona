@@ -17,6 +17,64 @@
     "bootstrap",
     "responsive"
   ],
+  "_args": [
+    [
+      {
+        "raw": "git://git@github.com:ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "git://git@github.com:ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+        "spec": "git+ssh://git@github.com/ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+          "sshUrl": "git+ssh://git@github.com/ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+          "httpsUrl": "git+https://github.com/ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+          "gitUrl": "git://github.com/ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+          "shortcut": "github:ccmtlittlestone/nodebb-theme-ccmtpersona",
+          "directUrl": "https://raw.githubusercontent.com/ccmtlittlestone/nodebb-theme-ccmtpersona/master/package.json"
+        }
+      },
+      "/home/lingxiao/data/web/nodebb_ccmt"
+    ]
+  ],
+  "_from": "git+ssh://git@github.com/ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+  "_id": "nodebb-theme-ccmtpersona@4.2.6",
+  "_inCache": true,
+  "_location": "/nodebb-theme-ccmtpersona",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "git://git@github.com:ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "git://git@github.com:ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+    "spec": "git+ssh://git@github.com/ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+      "sshUrl": "git+ssh://git@github.com/ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+      "httpsUrl": "git+https://github.com/ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+      "gitUrl": "git://github.com/ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+      "shortcut": "github:ccmtlittlestone/nodebb-theme-ccmtpersona",
+      "directUrl": "https://raw.githubusercontent.com/ccmtlittlestone/nodebb-theme-ccmtpersona/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/ccmtlittlestone/nodebb-theme-ccmtpersona.git#c416bac3c406dfeaec648655355759889bb910d5",
+  "_shasum": "12b26bb143f1561c26d35c171a173b33abfd0b1f",
+  "_shrinkwrap": null,
+  "_spec": "git://git@github.com:ccmtlittlestone/nodebb-theme-ccmtpersona.git",
+  "_where": "/home/lingxiao/data/web/nodebb_ccmt",
+  "bugs": {
+    "url": "https://github.com/ccmtlittlestone/nodebb-theme-ccmtpersona/issues"
+  },
   "contributors": [
     {
       "name": "Andrew Rodrigues",
@@ -38,4 +96,30 @@
   "bugs": {
     "url": "https://github.com/ccmtlittlestone/nodebb-theme-ccmtpersona/issues"
   }
+  "dependencies": {},
+  "description": "Persona theme for NodeBB",
+  "devDependencies": {},
+  "gitHead": "c416bac3c406dfeaec648655355759889bb910d5",
+  "homepage": "https://github.com/ccmtlittlestone/nodebb-theme-persona#readme",
+  "keywords": [
+    "nodebb",
+    "theme",
+    "forum",
+    "bootstrap",
+    "responsive"
+  ],
+  "license": "BSD-2-Clause",
+  "main": "theme.less",
+  "name": "nodebb-theme-ccmtpersona",
+  "nbbpm": {
+    "compatibility": "^1.4.4"
+  },
+  "optionalDependencies": {},
+  "readme": "Persona theme for NodeBB\n====================\n\nPersona is the new default theme for NodeBB as of v0.7.1\n\n## Addons\n\n[Recent Cards](https://github.com/psychobunny/nodebb-plugin-recent-cards)\n\n## Screenshots\n\n![](https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/570/286/570286-db378dfd28256a8fabacc9129b3638dc678ac393.png?1439315393)\n\n<br />\n![](https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/570/287/570287-5875c63ce086d361b76d94e5bc7cc88a5fd34b8b.png?1439315419)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccmtlittlestone/nodebb-theme-persona.git"
+  },
+  "version": "4.2.6"
 }

@@ -64,6 +64,23 @@
 			<a component="post/quote" href="#" class="no-select <!-- IF !privileges.topics:reply -->hidden<!-- ENDIF !privileges.topics:reply -->">[[topic:quote]]</a>
 		</span>
 
+
+		<span component="post/tools" class="dropdown moderator-tools bottom-sheet <!-- IF !posts.display_post_menu -->hidden<!-- ENDIF !posts.display_post_menu -->">
+			<a href="#" data-toggle="dropdown" style="color:#337ab7;font-size:60%">分享</a>
+			<ul class="dropdown-menu dropdown-menu-right" role="menu">
+				<!-- <li role="presentation" class="dropdown-header">[[topic:share_this_post]]</li> -->
+				<!-- ENDIF postSharing.length -->
+				<!-- BEGIN postSharing -->
+					<li role="presentation">
+						<a role="menuitem" component="share/{postSharing.id}" tabindex="-1" href="#"><span class="menu-icon"><i class="fa {postSharing.class}"></i></span> {postSharing.name}</a>
+					</li>
+				<!-- END postSharing -->
+
+				<!-- IF config.loggedIn -->
+				<!-- IF !posts.selfPost -->
+			</ul>
+		</span>
+
 		<!-- IF !reputation:disabled -->
 		<span class="votes">
 			<a component="post/upvote" href="#" class="<!-- IF posts.upvoted -->upvoted<!-- ENDIF posts.upvoted -->">
