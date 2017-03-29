@@ -95,7 +95,7 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/ccmtlittlestone/nodebb-theme-ccmtpersona/issues"
-  }
+  },
   "dependencies": {},
   "description": "Persona theme for NodeBB",
   "devDependencies": {},
