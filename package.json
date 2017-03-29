@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-theme-persona",
+  "name": "nodebb-theme-ccmtpersona",
   "version": "4.2.6",
   "nbbpm": {
     "compatibility": "^1.4.4"
@@ -8,7 +8,7 @@
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona"
+    "url": "https://github.com/ccmtlittlestone/nodebb-theme-persona"
   },
   "keywords": [
     "nodebb",
@@ -36,6 +36,6 @@
   ],
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-theme-persona/issues"
+    "url": "https://github.com/ccmtlittlestone/nodebb-theme-ccmtpersona/issues"
   }
 }
