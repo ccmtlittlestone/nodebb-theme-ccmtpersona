@@ -65,7 +65,7 @@
 		</span>
 
 
-		<span component="post/tools" class="dropdown moderator-tools bottom-sheet <!-- IF !posts.display_post_menu -->hidden<!-- ENDIF !posts.display_post_menu -->">
+		<span component="post/tools" style="margin-right:10px;margin-left:0px;" class="dropdown moderator-tools bottom-sheet <!-- IF !posts.display_post_menu -->hidden<!-- ENDIF !posts.display_post_menu -->">
 			<a href="#" data-toggle="dropdown" style="color:#337ab7;font-size:60%">分享</a>
 			<ul class="dropdown-menu dropdown-menu-right" role="menu">
 				<!-- <li role="presentation" class="dropdown-header">[[topic:share_this_post]]</li> -->
