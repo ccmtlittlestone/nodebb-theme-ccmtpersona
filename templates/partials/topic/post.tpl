@@ -69,14 +69,12 @@
 			<a href="#" data-toggle="dropdown" style="color:#337ab7;font-size:60%">分享</a>
 			<ul class="dropdown-menu dropdown-menu-right" role="menu">
 				<!-- <li role="presentation" class="dropdown-header">[[topic:share_this_post]]</li> -->
-				<!-- ENDIF postSharing.length -->
 				<!-- BEGIN postSharing -->
 					<li role="presentation">
 						<a role="menuitem" component="share/{postSharing.id}" tabindex="-1" href="#"><span class="menu-icon"><i class="fa {postSharing.class}"></i></span> {postSharing.name}</a>
 					</li>
 				<!-- END postSharing -->
 
-				<!-- IF config.loggedIn -->
 				<!-- IF !posts.selfPost -->
 			</ul>
 		</span>
