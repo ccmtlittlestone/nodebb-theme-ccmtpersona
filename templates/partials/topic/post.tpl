@@ -65,10 +65,9 @@
 		</span>
 
 
-		<span component="post/tools" style="margin-right:10px;margin-left:0px;" class="dropdown moderator-tools bottom-sheet <!-- IF !posts.display_post_menu -->hidden<!-- ENDIF !posts.display_post_menu -->">
-			<a href="#" data-toggle="dropdown" style="color:#337ab7;font-size:60%">分享</a>
+		<span component="post/tools" style="margin-right:10px;margin-left:0px;font-size:100%;" class="dropdown moderator-tools bottom-sheet <!-- IF !posts.display_post_menu -->hidden<!-- ENDIF !posts.display_post_menu -->">
+			<a href="#" data-toggle="dropdown" style="color:#337ab7;">[[topic:share_this_post]]</a>
 			<ul class="dropdown-menu dropdown-menu-right" role="menu">
-				<!-- <li role="presentation" class="dropdown-header">[[topic:share_this_post]]</li> -->
 				<!-- BEGIN postSharing -->
 					<li role="presentation">
 						<a role="menuitem" component="share/{postSharing.id}" tabindex="-1" href="#"><span class="menu-icon"><i class="fa {postSharing.class}"></i></span> {postSharing.name}</a>
