@@ -1,3 +1,8 @@
+<style media="screen">
+	.i_star{
+		color: #23527c;
+	}
+</style>
 <!-- IMPORT partials/breadcrumbs.tpl -->
 <div widget-area="header"></div>
 <div class="row">
@@ -42,12 +47,31 @@
 				</li>
 			<!-- END posts -->
 		</ul>
-		
+
 		<!-- IF config.enableQuickReply -->
 		<!-- IMPORT partials/topic/quickreply.tpl -->
 		<!-- ENDIF config.enableQuickReply -->
-		
-		<div class="post-bar">
+
+		<div component="topic" class="post-bar">
+			<div class="">
+				<p>
+					<span class="i_star">★</span>
+					<span class="i_star">★</span>
+					<span class="i_star">★</span>
+					<span class="i_star">recommend</span>
+					<span class="i_star">★</span>
+					<span class="i_star">★</span>
+					<span class="i_star">★</span>
+				</p>
+				<ul>
+				<!-- BEGIN relatedTopics -->
+
+					<li style="float:left; list-style-type: disc;margin-right:5%;margin-bottom:20px;line-height:40px;"><a href="/topic/{relatedTopics.tid}">{relatedTopics.title}</a></li>
+
+				<!-- END relatedTopics -->
+				</ul>
+			</div>
+			<div style="clear:both;"></div>
 			<!-- IMPORT partials/post_bar.tpl -->
 		</div>
 
