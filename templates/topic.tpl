@@ -55,13 +55,7 @@
 		<div component="topic" class="post-bar">
 			<div class="">
 				<p>
-					<span class="i_star">★</span>
-					<span class="i_star">★</span>
-					<span class="i_star">★</span>
-					<span class="i_star">recommend</span>
-					<span class="i_star">★</span>
-					<span class="i_star">★</span>
-					<span class="i_star">★</span>
+					<span class="i_star">You may be interested in..</span>
 				</p>
 				<ul>
 				<!-- BEGIN relatedTopics -->
