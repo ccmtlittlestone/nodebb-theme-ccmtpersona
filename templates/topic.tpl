@@ -53,19 +53,19 @@
 		<!-- ENDIF config.enableQuickReply -->
 
 		<div component="topic" class="post-bar">
-			<!-- <div class="">
+			<div class="">
 				<p>
 					<span class="i_star">You may be interested in..</span>
 				</p>
-				<ul> -->
+				<ul>
 				<!-- BEGIN relatedTopics -->
 
-					<!-- <li style="float:left; list-style-type: disc;margin-right:5%;margin-bottom:20px;line-height:40px;"><a href="/topic/{relatedTopics.tid}">{relatedTopics.title}</a></li> -->
+					<li style="float:left; list-style-type: disc;margin-right:5%;margin-bottom:20px;line-height:40px;"><a href="/topic/{relatedTopics.tid}">{relatedTopics.title}</a></li>
 
 				<!-- END relatedTopics -->
-				<!-- </ul>
+				</ul>
 			</div>
-			<div style="clear:both;"></div> -->
+			<div style="clear:both;"></div>
 			<!-- IMPORT partials/post_bar.tpl -->
 		</div>
 
