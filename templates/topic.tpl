@@ -53,9 +53,10 @@
 		<!-- ENDIF config.enableQuickReply -->
 
 		<div component="topic" class="post-bar">
+			<!-- IF config.enableAutoReply -->
 			<div class="">
 				<p>
-					<span class="i_star">You may be interested in..</span>
+					<span class="i_star">[[topic:topic_to_recommend]]</span>
 				</p>
 				<ul>
 				<!-- BEGIN relatedTopics -->
@@ -66,8 +67,10 @@
 				</ul>
 			</div>
 			<div style="clear:both;"></div>
+			<!-- ENDIF config.enableAutoReply -->
 			<!-- IMPORT partials/post_bar.tpl -->
 		</div>
+
 
 		<!-- IF config.usePagination -->
 		<!-- IMPORT partials/paginator.tpl -->
