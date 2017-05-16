@@ -79,16 +79,16 @@
 		</span>
 
 		<!-- IF !reputation:disabled -->
-		<span class="votes">
+		<span class="votes" style="font-size:135%">
 			<a component="post/upvote" href="#" class="<!-- IF posts.upvoted -->upvoted<!-- ENDIF posts.upvoted -->">
-				<i class="fa fa-chevron-up"></i>
+				<i class="fa fa-thumbs-o-up"></i>
 			</a>
 
 			<span component="post/vote-count" data-votes="{posts.votes}">{posts.votes}</span>
 
 			<!-- IF !downvote:disabled -->
 			<a component="post/downvote" href="#" class="<!-- IF posts.downvoted -->downvoted<!-- ENDIF posts.downvoted -->">
-				<i class="fa fa-chevron-down"></i>
+				<i class="fa fa-thumbs-o-down"></i>
 			</a>
 			<!-- ENDIF !downvote:disabled -->
 		</span>
