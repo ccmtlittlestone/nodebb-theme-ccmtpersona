@@ -61,7 +61,7 @@
 				<ul>
 				<!-- BEGIN relatedTopics -->
 
-					<li style="float:left; list-style-type: disc;margin-right:5%;line-height:20px;"><a href="/topic/{relatedTopics.tid}">{relatedTopics.title}</a></li>
+					<li style="float:left; list-style-type: none;margin-right:5%;line-height:20px;"><a href="/topic/{relatedTopics.tid}"><i class="fa fa-arrow-circle-o-right"></i> {relatedTopics.title}</a></li>
 
 				<!-- END relatedTopics -->
 				</ul>
