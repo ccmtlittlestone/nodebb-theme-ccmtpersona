@@ -52,7 +52,7 @@
 		<!-- IMPORT partials/topic/quickreply.tpl -->
 		<!-- ENDIF config.enableQuickReply -->
 
-		<div component="topic" class="post-bar">
+		<div class="post-bar">
 			<!-- IF config.enableAutoReply -->
 			<div class="">
 				<p>
